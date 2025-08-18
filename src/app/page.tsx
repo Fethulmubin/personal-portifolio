@@ -4,6 +4,7 @@ import RecentProjects from "../../components/RecentProjects"
 import { FloatingNav } from "../../components/ui/FloatingNav";
 import { FolderOpen, House, Phone } from "lucide-react";
 import { navItems } from "../../data";
+import Clients from "../../components/Clients";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        <Clients />
       </div>
     </main>
   );
