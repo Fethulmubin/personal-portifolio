@@ -5,6 +5,9 @@ import { FloatingNav } from "../../components/ui/FloatingNav";
 import { FolderOpen, House, Phone } from "lucide-react";
 import { navItems } from "../../data";
 import Clients from "../../components/Clients";
+import Experience from "../../components/Experience";
+import Approach from "../../components/Approach";
+import Footer from "../../components/Footer";
 
 
 export default function Home() {
@@ -18,6 +21,9 @@ export default function Home() {
         <Grid />
         <RecentProjects />
         <Clients />
+        <Experience />
+        <Approach />
+        <Footer />
       </div>
     </main>
   );

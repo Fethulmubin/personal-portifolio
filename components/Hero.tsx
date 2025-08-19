@@ -7,7 +7,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-36 text-white">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -46,8 +46,8 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+          <p className="text-center text-white md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            Hi! I&apos;m Fethulmubun, a Full-stack developer based in Ethiopia.
           </p>
 
           <a href="#about">
